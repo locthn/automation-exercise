@@ -31,7 +31,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_view_cart/hyperlink_regist
 
 'Step 7: Add visual checkpoint at Page_home'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify User Login and Home Page Navigation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Login and Navigation to Home Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

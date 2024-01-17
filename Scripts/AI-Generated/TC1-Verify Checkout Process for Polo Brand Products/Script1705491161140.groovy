@@ -63,7 +63,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_payment/button_pay_and_con
 
 'Step 14: Add visual checkpoint at Page_payment_done/*'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Checkout Process from Product Selection to Payment Confirmation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Checkout Process for Polo Brand Products_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

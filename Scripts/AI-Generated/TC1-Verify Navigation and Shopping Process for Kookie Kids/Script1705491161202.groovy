@@ -35,7 +35,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_brand_products_Polo/hyperl
 
 'Step 7: Add visual checkpoint at Page_test_cases'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Product Selection and Category Navigation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation and Shopping Process for Kookie Kids_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

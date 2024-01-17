@@ -15,7 +15,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_products/hyperlink_api_tes
 
 'Step 2: Add visual checkpoint at Page_api_list'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation to API List Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation to API List_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

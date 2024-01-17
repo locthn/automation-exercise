@@ -27,7 +27,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_products/hyperlin
 
 'Step 5: Add visual checkpoint at Page_category_products/*'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Product Selection and Adding to Cart_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Adding Dress to Cart from Women s Products_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
