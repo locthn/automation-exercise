@@ -1,5 +1,5 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -27,7 +27,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_products/hyperlin
 
 'Step 5: Add visual checkpoint at Page_category_products/*'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Adding Dress to Cart from Women s Products_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Add Women s Dress to Shopping Cart_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
