@@ -1,6 +1,6 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -68,7 +68,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_payment/button_pay_and_con
 
 'Step 15: Add visual checkpoint at Page_payment_done/*'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-002_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Navigate to Polo Brand Products View Cart Checkout Payment and Verify Payment Done_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

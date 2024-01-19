@@ -1,6 +1,6 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -40,27 +40,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_brand_products_Polo/hyperl
 
 'Step 8: Add visual checkpoint at Page_test_cases'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-004_visual_checkpoint')
-
-'Step 9: At Page test cases, click on hyperlink test case 7 verify test cases page'
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_test_cases/hyperlink_test_case_7_verify_test_cases_page'))
-
-'Step 10: At Page test cases, click on hyperlink test case 10 verify subscription in hom'
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_test_cases/hyperlink_test_case_10_verify_subscription_in_hom'))
-
-'Step 11: At Page test cases, click on hyperlink test case 21 add review on product'
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_test_cases/hyperlink_test_case_21_add_review_on_product'))
-
-'Step 12: At Page test cases, click on hyperlink products > navigate to Page products'
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_test_cases/hyperlink_products'))
-
-'Step 13: Add visual checkpoint at Page_products'
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-004_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Navigate to Kookie Kids Brand Products Men s T Shirts Polo Brand Products Test Cases Page and Verify Checkout Complete_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
