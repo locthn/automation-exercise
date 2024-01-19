@@ -1,5 +1,5 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
@@ -36,7 +36,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_view_cart/hyperlink_regist
 
 'Step 8: Add visual checkpoint at Page_home'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Login and Home Page after Checkout_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Login and Navigation to Home Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
