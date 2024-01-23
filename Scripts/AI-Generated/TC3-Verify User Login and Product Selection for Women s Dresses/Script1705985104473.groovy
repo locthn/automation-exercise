@@ -1,7 +1,7 @@
-import katalon.truetest.Scripts
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import katalon.truetest.Scripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -25,7 +25,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_test_cases/hyperlink_produ
 
 'Step 4: Add visual checkpoint at Page_products'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify User Login and Navigation to Home from Dress Category_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify User Login and Product Selection for Women s Dresses_visual_checkpoint')
 
 'Step 5: At Page products, click on div object'
 
@@ -57,7 +57,7 @@ Scripts.login()
 
 'Step 12: Add visual checkpoint at Page_home'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify User Login and Navigation to Home from Dress Category_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify User Login and Product Selection for Women s Dresses_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

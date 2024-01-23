@@ -1,6 +1,6 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -40,7 +40,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_brand_products_Polo/hyperl
 
 'Step 8: Add visual checkpoint at Page_test_cases'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation and Shopping Process for Kookie Kids T shirts_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Navigation and Product Selection on Kookie Kids Brand_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

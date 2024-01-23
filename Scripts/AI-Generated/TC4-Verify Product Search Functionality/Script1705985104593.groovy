@@ -1,6 +1,6 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -22,17 +22,21 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_test_cases'
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_test_cases/hyperlink_products'))
 
-'Step 4: Add visual checkpoint at Page_products'
+'Step 4: At Page products, click on input search'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC9-Verify API List Page Navigation_visual_checkpoint')
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_products/input_search'))
 
-'Step 5: At Page products, click on hyperlink api testing > navigate to Page api list'
+'Step 5: At Page products, input on input search'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_products/hyperlink_api_testing'))
+WebUI.setText(findTestObject('AI-Generated/Page_products/input_search'), var_1_input_search)
 
-'Step 6: Add visual checkpoint at Page_api_list'
+'Step 6: At Page products, click on button object'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC9-Verify API List Page Navigation_visual_checkpoint')
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_products/button_object'))
+
+'Step 7: Add visual checkpoint at Page_products'
+
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Product Search Functionality_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
