@@ -1,7 +1,6 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import katalon.truetest.Scripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -25,7 +24,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_test_cases/hyperlink_produ
 
 'Step 4: Add visual checkpoint at Page_products'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify User Login and Product Selection for Women s Dresses_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Adding Women s Dress to Cart and Viewing the Category Products_visual_checkpoint')
 
 'Step 5: At Page products, click on div object'
 
@@ -39,25 +38,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_products/hyperlink_women')
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_products/hyperlink_dress'))
 
-'Step 8: At Page category products/*, click on hyperlink cart > navigate to Page view cart'
+'Step 8: At Page category products/*, click on hyperlink add to cart'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_products/hyperlink_cart'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_products/hyperlink_add_to_cart'))
 
-'Step 9: At Page view cart, click on hyperlink proceed to checkout'
+'Step 9: Add visual checkpoint at Page_category_products/*'
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_view_cart/hyperlink_proceed_to_checkout'))
-
-'Step 10: At Page view cart, click on hyperlink register login > navigate to Page login'
-
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_view_cart/hyperlink_register_login'))
-
-'Step 11: Login into Application'
-
-Scripts.login()
-
-'Step 12: Add visual checkpoint at Page_home'
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify User Login and Product Selection for Women s Dresses_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Adding Women s Dress to Cart and Viewing the Category Products_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
