@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home login > navigate to Page home",
+        "step 3: At Page home, click on div object",
+        "step 4: At Page home, click on hyperlink object",
+        "step 5: At Page home, click on hyperlink object",
+        "step 6: At Page home, click on hyperlink contact us > navigate to Page contact us",
+        "step 7: Add visual checkpoint at Page contact us"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to Page products",
+        "step 2: At Page products, click on hyperlink 6 polo > navigate to Page brand products Polo",
+        "step 3: At Page brand products Polo, click on hyperlink cart > navigate to Page view cart",
+        "step 4: At Page view cart, click on hyperlink proceed to checkout",
+        "step 5: Add visual checkpoint at Page view cart"
+    ]
+}
