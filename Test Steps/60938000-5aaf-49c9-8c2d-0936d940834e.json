@@ -1,0 +1,19 @@
+{
+    "steps": [
+        "step 1: Navigate to Page products",
+        "step 2: At Page products, click on div object",
+        "step 3: At Page products, click on hyperlink 6 polo > navigate to Page brand products Polo",
+        "step 4: At Page brand products Polo, click on hyperlink cart > navigate to Page view cart",
+        "step 5: At Page view cart, click on hyperlink proceed to checkout > navigate to Page checkout",
+        "step 6: At Page checkout, input on textarea message",
+        "step 7: At Page checkout, click on hyperlink place order > navigate to Page payment",
+        "step 8: At Page payment, click on input name on card",
+        "step 9: At Page payment, input on input name on card",
+        "step 10: At Page payment, input on input card number",
+        "step 11: At Page payment, input on input cvc",
+        "step 12: At Page payment, input on input expiry month",
+        "step 13: At Page payment, input on input expiry year",
+        "step 14: At Page payment, click on button pay and confirm order > navigate to Page payment done",
+        "step 15: Add visual checkpoint at Page payment done"
+    ]
+}

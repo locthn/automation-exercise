@@ -1,7 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to Page products",
-        "step 2: At Page products, click on hyperlink api testing > navigate to Page api list",
-        "step 3: Add visual checkpoint at Page api list"
-    ]
-}

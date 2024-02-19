@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, click on hyperlink signup login > navigate to Page login",
+        "step 3: At Page login login > navigate to Page home",
+        "step 4: At Page home, click on hyperlink products > navigate to Page products",
+        "step 5: At Page products, click on hyperlink women",
+        "step 6: At Page products, click on hyperlink tops shirts > navigate to Page category products",
+        "step 7: Add visual checkpoint at Page category products"
+    ]
+}

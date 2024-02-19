@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Product Test Cases on Kookie Kids Brand Tshirts,Navigate to the home page and login. Click through the product categories to reach the test cases page. Verify the test cases page.,"step 1: Navigate to Page home
+1,Verify Adding Item to Shopping Cart and Viewing Test Cases,"Navigate to the home page, login, and add an item to the shopping cart. Then, proceed to view the test cases.","step 1: Navigate to Page home
 step 2: At Page home login > navigate to Page home
 step 3: At Page home, click on hyperlink 3 kookie kids > navigate to Page brand products
 step 4: At Page brand products, click on hyperlink men
@@ -8,24 +8,22 @@ step 6: At Page category products, click on hyperlink 6 polo > navigate to Page 
 step 7: At Page brand products Polo, click on button continue shopping
 step 8: At Page brand products Polo, click on hyperlink test cases > navigate to Page test cases
 step 9: Add visual checkpoint at Page test cases",High
-1,Verify Place Order and Payment Confirmation for Women s Dress,Navigate to the products page and proceed to checkout. Enter the required payment details and confirm the order. Verify the home page.,"step 1: Navigate to Page products
+2,Verify Placing Order and Completing Payment,"Navigate to the products page, select an item, proceed to checkout, input payment details, and complete the payment process.","step 1: Navigate to Page products
 step 2: At Page products, click on div object
-step 3: At Page products, click on hyperlink women
-step 4: At Page products, click on hyperlink dress > navigate to Page category products
-step 5: At Page category products, click on hyperlink cart > navigate to Page view cart
-step 6: At Page view cart, click on hyperlink proceed to checkout > navigate to Page checkout
-step 7: At Page checkout, input on textarea message
-step 8: At Page checkout, click on hyperlink place order > navigate to Page payment
-step 9: At Page payment, click on input name on card
-step 10: At Page payment, input on input name on card
-step 11: At Page payment, input on input card number
-step 12: At Page payment, input on input cvc
-step 13: At Page payment, input on input expiry month
-step 14: At Page payment, input on input expiry year
-step 15: At Page payment, click on button pay and confirm order > navigate to Page payment done
-step 16: At Page payment done, click on hyperlink continue > navigate to Page home
-step 17: Add visual checkpoint at Page home",High
-2,Verify Product Search Functionality on Products Page,Navigate to the home page and login. Access the test cases page and then navigate to the products page. Perform a search and verify the products page.,"step 1: Navigate to Page home
+step 3: At Page products, click on hyperlink 6 polo > navigate to Page brand products Polo
+step 4: At Page brand products Polo, click on hyperlink cart > navigate to Page view cart
+step 5: At Page view cart, click on hyperlink proceed to checkout > navigate to Page checkout
+step 6: At Page checkout, input on textarea message
+step 7: At Page checkout, click on hyperlink place order > navigate to Page payment
+step 8: At Page payment, click on input name on card
+step 9: At Page payment, input on input name on card
+step 10: At Page payment, input on input card number
+step 11: At Page payment, input on input cvc
+step 12: At Page payment, input on input expiry month
+step 13: At Page payment, input on input expiry year
+step 14: At Page payment, click on button pay and confirm order > navigate to Page payment done
+step 15: Add visual checkpoint at Page payment done",High
+3,Verify Searching and Viewing Products,"Navigate to the home page, login, and search for products. Verify the displayed products.","step 1: Navigate to Page home
 step 2: At Page home login > navigate to Page home
 step 3: At Page home, click on hyperlink test cases > navigate to Page test cases
 step 4: At Page test cases, click on hyperlink products > navigate to Page products
@@ -33,43 +31,47 @@ step 5: At Page products, click on input search
 step 6: At Page products, input on input search
 step 7: At Page products, click on button object
 step 8: Add visual checkpoint at Page products",High
-3,Verify Adding Product to Cart on Products Page,"Navigate to the home page and login. Access the products page, add a product to the cart, and verify the products page.","step 1: Navigate to Page home
+4,Verify Adding Item to Shopping Cart,"Navigate to the products page, select an item, and verify that it has been added to the shopping cart.","step 1: Navigate to Page home
 step 2: At Page home login > navigate to Page home
 step 3: At Page home, click on hyperlink products > navigate to Page products
 step 4: At Page products, click on div object
 step 5: At Page products, click on hyperlink add to cart
 step 6: Add visual checkpoint at Page products",High
-4,Verify View Cart after Adding Polo Brand Product,Navigate to the products page and view the Polo brand products. Proceed to the cart and verify the view cart page.,"step 1: Navigate to Page products
+5,Verify Viewing Shopping Cart,"Navigate to the products page, select an item, and proceed to view the shopping cart.","step 1: Navigate to Page products
 step 2: At Page products, click on hyperlink 6 polo > navigate to Page brand products Polo
 step 3: At Page brand products Polo, click on hyperlink cart > navigate to Page view cart
 step 4: At Page view cart, click on hyperlink proceed to checkout
 step 5: Add visual checkpoint at Page view cart",High
-5,Verify Product Details for Women s Tops and Shirts,Navigate to the home page and login. Access the products page and navigate to the women's tops and shirts. View the product details and verify.,"step 1: Navigate to Page home
+6,Verify Viewing Brand Products,"Navigate to the home page, select brand products for men and kids, and verify the displayed brand products.","step 1: Navigate to Page home
+step 2: At Page home login > navigate to Page home
+step 3: At Page home, click on hyperlink 5 biba > navigate to Page brand products Biba
+step 4: At Page brand products Biba, click on hyperlink men
+step 5: At Page brand products Biba, click on hyperlink tshirts > navigate to Page category products
+step 6: At Page category products, click on hyperlink kids
+step 7: At Page category products, click on hyperlink 5 biba > navigate to Page brand products Biba
+step 8: Add visual checkpoint at Page brand products Biba",High
+7,Verify Viewing Category Products for Women,"Navigate to the products page, select category products for women, and verify the displayed category products.","step 1: Navigate to Page home
 step 2: At Page home, click on hyperlink signup login > navigate to Page login
 step 3: At Page login login > navigate to Page home
 step 4: At Page home, click on hyperlink products > navigate to Page products
 step 5: At Page products, click on hyperlink women
 step 6: At Page products, click on hyperlink tops shirts > navigate to Page category products
-step 7: At Page category products, click on hyperlink view product > navigate to Page product details
-step 8: Add visual checkpoint at Page product details",High
-6,Verify Adding Dress to Cart on Category Products Page,"Navigate to the products page, select the women's dress category, add a dress to the cart, and verify the category products page.","step 1: Navigate to Page products
+step 7: Add visual checkpoint at Page category products",High
+8,Verify Adding Dress to Shopping Cart,"Navigate to the products page, select a dress, and verify that it has been added to the shopping cart.","step 1: Navigate to Page products
 step 2: At Page products, click on div object
 step 3: At Page products, click on hyperlink women
 step 4: At Page products, click on hyperlink dress > navigate to Page category products
 step 5: At Page category products, click on hyperlink add to cart
 step 6: Add visual checkpoint at Page category products",Medium
-7,Verify Contact Us Page Navigation,Navigate to the home page and login. Access the contact us page and verify.,"step 1: Navigate to Page home
+9,Verify Adding Product to Shopping Cart,"Navigate to the home page, select a product, and verify that it has been added to the shopping cart.","step 1: Navigate to Page products
+step 2: At Page products, click on hyperlink home > navigate to Page home
+step 3: At Page home, click on hyperlink view product > navigate to Page product details
+step 4: At Page product details, click on button add to cart
+step 5: Add visual checkpoint at Page product details",Low
+10,Verify Accessing Contact Us Page,"Navigate to the home page, login, and access the contact us page. Verify the displayed contact us page.","step 1: Navigate to Page home
 step 2: At Page home login > navigate to Page home
 step 3: At Page home, click on div object
 step 4: At Page home, click on hyperlink object
 step 5: At Page home, click on hyperlink object
 step 6: At Page home, click on hyperlink contact us > navigate to Page contact us
 step 7: Add visual checkpoint at Page contact us",Low
-8,Verify Adding Product to Cart on Product Details Page,"Navigate to the products page, view a product, add it to the cart, and verify the product details page.","step 1: Navigate to Page products
-step 2: At Page products, click on hyperlink home > navigate to Page home
-step 3: At Page home, click on hyperlink view product > navigate to Page product details
-step 4: At Page product details, click on button add to cart
-step 5: Add visual checkpoint at Page product details",Low
-9,Verify API List Page,Navigate to the products page and verify the API list page.,"step 1: Navigate to Page products
-step 2: At Page products, click on hyperlink api testing > navigate to Page api list
-step 3: Add visual checkpoint at Page api list",Trivial

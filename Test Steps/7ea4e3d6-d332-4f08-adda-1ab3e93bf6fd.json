@@ -1,0 +1,12 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home login > navigate to Page home",
+        "step 3: At Page home, click on hyperlink 5 biba > navigate to Page brand products Biba",
+        "step 4: At Page brand products Biba, click on hyperlink men",
+        "step 5: At Page brand products Biba, click on hyperlink tshirts > navigate to Page category products",
+        "step 6: At Page category products, click on hyperlink kids",
+        "step 7: At Page category products, click on hyperlink 5 biba > navigate to Page brand products Biba",
+        "step 8: Add visual checkpoint at Page brand products Biba"
+    ]
+}
